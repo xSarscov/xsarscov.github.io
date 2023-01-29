@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Chiqui</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: bgcolor infinite 5s;
+            animation-delay: 12s;
+        }
+
+        @keyframes bgcolor{
+            0%{
+                background: #e74c3c;
+            }
+            10%{
+                background: #e67e22;
+            }
+            20%{
+                background: #f1c40f;
+            }
+            30%{
+                background: #8e44ad;
+            }
+            40%{
+                background: #2980b9;
+            }
+            50%{
+                background: #27ae60;
+            }
+            60%{
+                background: #2c3e50;
+            }
+            70%{
+                background: #e74c3c;
+            }
+            80%{
+                background: #f1c40f;
+            }
+            90%{
+                background: #1abc9c;
+            }
+            100%{
+                background: #2ecc71;
+            }
+
+        }
+
+        .container{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box{
+            width: 160px;
+            height: 20px;
+            border: 3px solid black;
+        }
+
+        .box-fill{
+            animation: loading 4s;
+            height: 100%;
+            background-color: salmon;
+        }
+
+        @keyframes loading{
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 160px;
+            }
+        }
+
+        h1{
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <iframe id="pic1" src="https://giphy.com/embed/Y0zTJ7VrKo9P2" width="280" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+    <div class="container">
+        <h1>&#11088; No more pleitos, i love u so much &#11088;</h1>
+        <svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="240" height="240" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0_1_2" transform="scale(0.00416667)"/>
+        </pattern>
+        <image id="image0_1_2" width="240" height="240" xlink:href="data:image/png;base64,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"/>
+        </defs>
+        </svg>
+
+        <p id="loading-msg">Sending virtual hug...</p>
+        <div class="box">
+            <div class="box-fill"></div>
+        </div>
+        <audio  controls autoplay><source src="neverita.mp3" type="audio/mp3"></audio>
+    </div>
+
+    <iframe id="pic2" src="https://giphy.com/embed/BK1EfIsdkKZMY" width="280" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+
+    <script>
+        document.getElementById("pic1").style.visibility = "hidden";
+        document.getElementById("pic2").style.visibility = "hidden";
+
+        setTimeout(loadingMsg,4000);
+        function loadingMsg(){
+            document.getElementById("loading-msg").innerText = "Hug sent!";
+        }
+        setTimeout(function(){
+            alert("YOU'VE RECEIVED A BEAR HUG! 💕")
+            document.getElementById("pic1").style.visibility = "visible";
+            document.getElementById("pic2").style.visibility = "visible";
+        },4200)
+    </script>
+</body>
+</html>
